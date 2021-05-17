@@ -1,8 +1,8 @@
 parser.verbs = {
 
 	connect: {},
-	console: {}
-	c: {shortcut: console
+	console: {},
+	c: {shortcut: 'console'},
 	examine: {
 		default: function (thing) {
 			if (typeof(thing)=='undefined') log.add('What should I look at?');
