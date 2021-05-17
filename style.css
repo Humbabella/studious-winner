@@ -1,0 +1,9 @@
+*{
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
+}
+
+.game_log {position: absolute; height: 500px; width: 50%; left: 0px; top: 0px; overflow-y: scroll}
+.input_field {position: absolute; height: 50px; width: 50%; left: 0px; top: 500px}
+.log_line {margin: 0; margin-bottom: .5em}
